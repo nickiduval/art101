@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My_Name Homepage</title>
-	<link rel="stylesheet" type="text/css" href="css/site.css">
+	<meta charset="utf-8">
+	<title>Lab 2 - My First HTML</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
 </head>
 <body>
-	<main>
-		<p>This page was generated from Wes' File Structure Template Repo.</p>
-		
-		<p>Go crazy and customize me.</p>
-	</main>
-
+	<div id="header">
+		<h1>Hello World</h1>
+		<h2> I am the section C and D teaching assistant, Nicki. </h2>
+		<h3> I'm here to help with your HTML and CSS needs. </h3>
+	</div>
+	<div id="content">
+		<p id="red-para"> I'm a first year MFA student in the Digital Arts and New Media MFA program. </p>
+		<p> For this assignment, I'm working alone <span>but</span> here is a list of people I would accept as a partner:</p>
+			<ul>
+				<li> Albert Einstein </li>
+				<li> Alan Turing </li>
+				<li> Ada Lovelace </li>
+			</ul>
+		<p> Who would you choose from those options? <select name="partner">
+ <option value="" disabled selected>Please Select</option>
+ <option value="Albert-Einstein">Albert Einstein</option>
+ <option value="Alan-Turing">Alan Turing</option>
+ <option value="Ada-Lovelace">Ada Lovelace</option>
+</select>
+ <button type="submit" formtarget="_blank"> Submit</button>
+		<p>Here is a <a href="https://trishansoz.com/trishansoz/animals/kangaroo-hopping-macropod.html"> fun article.</a></p>
+			<img id="kangaroo" src="https://trishansoz.com/trishansoz/animals/images/kangaroo/two-kangaroo-hopping-high.jpg">
+		</div>
 
 </body>
 </html>
